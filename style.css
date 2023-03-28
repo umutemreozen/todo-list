@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to right, #360033, #0b8793);
+  background: linear-gradient(to right, #000000, #ffffff);
   font-family: sans-serif;
 }
 header h1 {
@@ -34,13 +34,13 @@ form input {
 }
 form button {
   color: #fff;
-  background-color: #340436;
+  background-color: #000000;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
   background-color: #fff;
-  color: #340436;
+  color: #000000;
 }
 .select {
   position: relative;
@@ -61,7 +61,7 @@ select {
 .select:after {
   content: "\25BC";
   position: absolute;
-  background-color: #340436;
+  background-color: #000000;
   color: #fff;
   top: 0;
   right: 0;
@@ -70,7 +70,7 @@ select {
   pointer-events: none;
 }
 .select:hover:after {
-  color: #340436;
+  color: #000000;
   background-color: #fff;
 }
 .todo-container {
